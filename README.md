@@ -7,7 +7,7 @@ Você precisa garantir que a senha do banco está **igual em todos os lugares**.
 
 
 ```properties
-### 📌 No `application.properties`
+No `application.properties`
 spring.datasource.username=root
 spring.datasource.password=SUA_SENHA_AQUI
 
