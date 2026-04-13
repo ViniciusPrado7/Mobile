@@ -1,7 +1,6 @@
 # 🚀 Guia para rodar o projeto com Docker
-## ✅ 1. No seu mysql crie um schema com o nome "passgeneration"
 
-## ✅ 2. Ajustar as senhas (IMPORTANTE)
+## ✅ 1. Ajustar as senhas (IMPORTANTE)
 
 Você precisa garantir que a senha do banco está **igual em todos os lugares**.
 
@@ -20,7 +19,7 @@ No docker-compose.yml (serviço backend)
 environment:
   - SPRING_DATASOURCE_USERNAME=root
   - SPRING_DATASOURCE_PASSWORD=SUA_SENHA_AQUI
-3. Subir os containers
+2. Subir os containers
 
 Abra o terminal na raiz do projeto (onde está o docker-compose.yml).
 
@@ -30,7 +29,7 @@ docker compose build
 Subir os containers:
 docker compose up -d
 
-4. Testar acesso
+3. Testar acesso
 Backend:
 http://localhost:8080
 Frontend:
